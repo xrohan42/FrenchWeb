@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations | Exploring the Hidden Gems of France</title>
+    <meta name="description"
+        content="Explore the stunning cities of Nice, Lyon, Marseille, Bordeaux, and Strasbourg. Discover attractions, local cuisine, festivals, and historical landmarks.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        beige: '#F5F0E8', 'soft-white': '#FAFAF7', 'light-blue': '#D6E8F0',
+                        navy: '#1B2A4A', gold: '#C9A96E', 'gold-light': '#E8D5A8',
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'Georgia', 'serif'],
+                        body: ['Inter', 'system-ui', 'sans-serif'],
+                        accent: ['Cormorant Garamond', 'Georgia', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- ======== NAVIGATION ======== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo"><span class="logo-icon">⚜</span> France Unveiled</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html" class="active">Destinations</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="creator.html">Creators</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======== PAGE HERO ======== -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="French destinations panoramic view">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="section-label" style="color: var(--color-gold-light);">✦ France Beyond Paris</p>
+            <h1>Our Destinations</h1>
+            <p class="hero-subtitle">Five magnificent cities, each with its own soul and story</p>
+        </div>
+    </section>
+
+    <!-- ======== NICE ======== -->
+    <section class="city-section" id="nice">
+        <div class="city-content">
+            <div class="city-image fade-in-left">
+                <img src="images/nice.png" alt="Nice - Promenade des Anglais">
+            </div>
+            <div class="city-info fade-in-right">
+                <p class="section-label">Côte d'Azur</p>
+                <h2>Nice</h2>
+                <p class="city-tagline">"The Queen of the French Riviera"</p>
+                <p>Nestled between the Mediterranean Sea and the foothills of the Alps, Nice enchants visitors with its
+                    stunning azure waters, vibrant markets, and belle-époque architecture. It's a city where art,
+                    nature, and the art of living beautifully converge.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">🏛</span>
+                        <span><strong>Attractions:</strong> Promenade des Anglais, Castle Hill, Old Town (Vieux Nice),
+                            Matisse Museum, Marc Chagall National Museum</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🍽</span>
+                        <span><strong>Local Food:</strong> Socca (chickpea flatbread), Salade Niçoise, Pissaladière
+                            (onion tart), Ratatouille</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎭</span>
+                        <span><strong>Festivals:</strong> Nice Carnival (one of the world's largest), Jazz Festival,
+                            Battle of Flowers</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🏰</span>
+                        <span><strong>Landmarks:</strong> Cathédrale Saint-Nicolas, Place Masséna, Colline du Château
+                            ruins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== LYON ======== -->
+    <section class="city-section" id="lyon">
+        <div class="city-content reverse">
+            <div class="city-image fade-in-right">
+                <img src="images/lyon.png" alt="Lyon - Old town along Saône river">
+            </div>
+            <div class="city-info fade-in-left">
+                <p class="section-label">Gastronomic Capital</p>
+                <h2>Lyon</h2>
+                <p class="city-tagline">"The Culinary Heart of France"</p>
+                <p>Lyon, a UNESCO World Heritage city, is where history, gastronomy, and innovation intertwine. With its
+                    traboules (hidden passageways), silk-weaving heritage, and legendary bouchons, Lyon offers an
+                    authentic French experience unlike any other.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">🏛</span>
+                        <span><strong>Attractions:</strong> Vieux Lyon (Old Town), Parc de la Tête d'Or, Place
+                            Bellecour, Confluence Museum, Traboules</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🍽</span>
+                        <span><strong>Local Food:</strong> Quenelles de brochet, Andouillette, Praline tart, Cervelle de
+                            canut (herb cheese), Lyonnaise salad</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎭</span>
+                        <span><strong>Festivals:</strong> Fête des Lumières (Festival of Lights), Nuits de Fourvière,
+                            Nuits Sonores</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🏰</span>
+                        <span><strong>Landmarks:</strong> Basilica of Notre-Dame de Fourvière, Roman amphitheatres,
+                            Cathédrale Saint-Jean-Baptiste</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== MARSEILLE ======== -->
+    <section class="city-section" id="marseille">
+        <div class="city-content">
+            <div class="city-image fade-in-left">
+                <img src="images/marseille.png" alt="Marseille - Old Port">
+            </div>
+            <div class="city-info fade-in-right">
+                <p class="section-label">Mediterranean Port City</p>
+                <h2>Marseille</h2>
+                <p class="city-tagline">"France's Gateway to the Mediterranean"</p>
+                <p>As France's oldest and most multicultural city, Marseille pulses with an energy that's both ancient
+                    and refreshingly modern. From the dramatic Calanques coastline to the bustling Vieux-Port fish
+                    market, this is a city that engages all the senses.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">🏛</span>
+                        <span><strong>Attractions:</strong> Vieux-Port, Calanques National Park, MuCEM Museum, Le Panier
+                            neighborhood, Château d'If</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🍽</span>
+                        <span><strong>Local Food:</strong> Bouillabaisse (fish stew), Navettes (orange-blossom cookies),
+                            Panisse (chickpea fries), Pastis</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎭</span>
+                        <span><strong>Festivals:</strong> Fiesta des Suds, Festival de Marseille, Carnival of
+                            Marseille</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🏰</span>
+                        <span><strong>Landmarks:</strong> Notre-Dame de la Garde, Abbaye Saint-Victor, Fort Saint-Jean,
+                            Palais Longchamp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== BORDEAUX ======== -->
+    <section class="city-section" id="bordeaux">
+        <div class="city-content reverse">
+            <div class="city-image fade-in-right">
+                <img src="images/bordeaux.png" alt="Bordeaux - Place de la Bourse">
+            </div>
+            <div class="city-info fade-in-left">
+                <p class="section-label">Wine Capital of the World</p>
+                <h2>Bordeaux</h2>
+                <p class="city-tagline">"Where Wine and Elegance Flow Together"</p>
+                <p>Bordeaux is synonymous with exceptional wine, but this elegant city offers so much more. Its
+                    perfectly preserved 18th-century architecture earned it UNESCO World Heritage status, while the
+                    modern Cité du Vin puts it at the forefront of wine culture tourism.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">🏛</span>
+                        <span><strong>Attractions:</strong> Place de la Bourse, Miroir d'Eau, Cité du Vin, Rue
+                            Sainte-Catherine, Darwin Ecosystem</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🍽</span>
+                        <span><strong>Local Food:</strong> Canelés (rum pastry), Entrecôte bordelaise, Oysters from
+                            Arcachon Bay, Dune du Pilat</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎭</span>
+                        <span><strong>Festivals:</strong> Bordeaux Wine Festival, Fête le vin, River Festival, Bordeaux
+                            Open Air music festival</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🏰</span>
+                        <span><strong>Landmarks:</strong> Cathédrale Saint-André, Grand Théâtre, Pont de Pierre, Porte
+                            Cailhau</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== STRASBOURG ======== -->
+    <section class="city-section" id="strasbourg">
+        <div class="city-content">
+            <div class="city-image fade-in-left">
+                <img src="images/strasbourg.png" alt="Strasbourg - Petite France">
+            </div>
+            <div class="city-info fade-in-right">
+                <p class="section-label">Franco-German Heritage</p>
+                <h2>Strasbourg</h2>
+                <p class="city-tagline">"A Fairytale at the Crossroads of Europe"</p>
+                <p>Strasbourg is where France and Germany embrace in a charming cultural fusion. Its iconic Petite
+                    France district, with half-timbered houses reflected in canals, feels like stepping into a
+                    storybook. As the seat of the European Parliament, it represents the heart of European unity.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">🏛</span>
+                        <span><strong>Attractions:</strong> Petite France, European Parliament, Orangerie Park,
+                            Strasbourg Astronomical Clock, Covered Bridges</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🍽</span>
+                        <span><strong>Local Food:</strong> Tarte flambée (Flammkuchen), Choucroute garnie, Kougelhopf
+                            cake, Bredele cookies</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎭</span>
+                        <span><strong>Festivals:</strong> Christkindelsmärik (Christmas Market — oldest in France!),
+                            Festival Musica, Strasbourg Mon Amour</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🏰</span>
+                        <span><strong>Landmarks:</strong> Cathédrale Notre-Dame de Strasbourg, Palais Rohan, Barrage
+                            Vauban, Maison Kammerzell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== CTA BANNER ======== -->
+    <section class="cta-banner">
+        <div style="position: relative; z-index: 1;">
+            <p class="section-label" style="color: var(--color-gold-light);">Immerse Yourself</p>
+            <h2>Explore the Rich Culture<br>of France</h2>
+            <p>Beyond the destinations, discover the art, cuisine, and traditions that make France truly extraordinary.
+            </p>
+            <a href="culture.html" class="btn btn-primary" style="font-size: 1rem; padding: 1rem 2.5rem;">
+                Discover French Culture →
+            </a>
+        </div>
+    </section>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>⚜ France Unveiled</h3>
+                <p>An educational project showcasing the diverse beauty of France beyond Paris. Explore hidden gems,
+                    rich culture, and unforgettable experiences.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cities</h4>
+                <ul>
+                    <li><a href="#nice">Nice</a></li>
+                    <li><a href="#lyon">Lyon</a></li>
+                    <li><a href="#marseille">Marseille</a></li>
+                    <li><a href="#bordeaux">Bordeaux</a></li>
+                    <li><a href="#strasbourg">Strasbourg</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="creator.html">Meet the Team</a></li>
+                    <li><a href="mailto:contact@franceunveiled.com">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 France Unveiled. An Educational Project.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">𝕏</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Facebook">ⓕ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

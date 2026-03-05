@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Culture | Exploring the Hidden Gems of France</title>
+    <meta name="description"
+        content="Discover the rich tapestry of French culture — art, architecture, traditional cuisine, vibrant festivals, and the enduring spirit of joie de vivre.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        beige: '#F5F0E8', 'soft-white': '#FAFAF7', 'light-blue': '#D6E8F0',
+                        navy: '#1B2A4A', gold: '#C9A96E', 'gold-light': '#E8D5A8',
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'Georgia', 'serif'],
+                        body: ['Inter', 'system-ui', 'sans-serif'],
+                        accent: ['Cormorant Garamond', 'Georgia', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- ======== NAVIGATION ======== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo"><span class="logo-icon">⚜</span> France Unveiled</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="culture.html" class="active">Culture</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="creator.html">Creators</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======== PAGE HERO ======== -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="images/culture-hero.png" alt="French art and architecture">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="section-label" style="color: var(--color-gold-light);">✦ L'Art de Vivre</p>
+            <h1>French Culture</h1>
+            <p class="hero-subtitle">Art, cuisine, festivals, and the timeless spirit of France</p>
+        </div>
+    </section>
+
+    <!-- ======== CULTURE INTRODUCTION ======== -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;" class="fade-in">
+                <p class="section-label">The Essence of France</p>
+                <h2>A Culture That Shaped the World</h2>
+                <div class="gold-line" style="margin: 1.25rem auto;"></div>
+                <p style="margin: 0 auto;">
+                    French culture is a magnificent tapestry woven from centuries of artistic brilliance, culinary
+                    mastery, philosophical thought, and an unwavering dedication to beauty. From the Gothic cathedrals
+                    that pierce the heavens to the humble boulangeries that perfume every street, France has gifted the
+                    world with an art of living — <em>l'art de vivre</em> — that continues to inspire and delight.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== CULTURE GRID ======== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="culture-grid stagger">
+
+                <!-- French Cuisine -->
+                <div class="culture-card fade-in">
+                    <div class="card-icon">🍽</div>
+                    <h3>Traditional Cuisine</h3>
+                    <p>French cuisine is recognized by UNESCO as an Intangible Cultural Heritage of Humanity. It's a
+                        celebration of terroir, technique, and passion.</p>
+                    <ul>
+                        <li>Coq au Vin — Chicken braised in Burgundy wine</li>
+                        <li>Bouillabaisse — Marseille's legendary fish stew</li>
+                        <li>Ratatouille — Provençal summer vegetable medley</li>
+                        <li>Crêpes — Thin pancakes from Brittany</li>
+                        <li>Croissants & Baguettes — The art of viennoiserie</li>
+                        <li>Macarons — Parisian almond meringue confections</li>
+                        <li>Cheese — Over 400 varieties across all regions</li>
+                        <li>Wine — From Bordeaux to Burgundy to Champagne</li>
+                    </ul>
+                </div>
+
+                <!-- Festivals -->
+                <div class="culture-card fade-in">
+                    <div class="card-icon">🎭</div>
+                    <h3>Grand Festivals</h3>
+                    <p>France celebrates life with spectacular festivals that bring communities together and attract
+                        visitors from around the globe.</p>
+                    <ul>
+                        <li>Cannes Film Festival — The pinnacle of world cinema</li>
+                        <li>Bastille Day (July 14) — National Day celebrations</li>
+                        <li>Fête de la Musique — Free music across all cities</li>
+                        <li>Nice Carnival — One of the world's largest carnivals</li>
+                        <li>Fête des Lumières — Lyon's magical light festival</li>
+                        <li>Tour de France — The world's greatest cycling race</li>
+                        <li>Nuit Blanche — All-night arts festivals in major cities</li>
+                        <li>Christmas Markets — Especially magical in Strasbourg</li>
+                    </ul>
+                </div>
+
+                <!-- Art -->
+                <div class="culture-card fade-in">
+                    <div class="card-icon">🎨</div>
+                    <h3>Art & Literature</h3>
+                    <p>France has been the epicenter of artistic revolution — from Impressionism to Existentialism, the
+                        nation continues to shape creative thought worldwide.</p>
+                    <ul>
+                        <li>Impressionism — Born in France with Monet and Renoir</li>
+                        <li>The Louvre — The world's largest and most-visited museum</li>
+                        <li>Victor Hugo — Les Misérables, a cornerstone of literature</li>
+                        <li>Existentialism — Sartre and de Beauvoir's philosophical legacy</li>
+                        <li>Art Nouveau — Ornamental style born in Nancy and Paris</li>
+                        <li>Cinema — The Lumière brothers invented the movie camera</li>
+                        <li>Fashion — Paris as the eternal capital of haute couture</li>
+                    </ul>
+                </div>
+
+                <!-- Architecture -->
+                <div class="culture-card fade-in">
+                    <div class="card-icon">🏛</div>
+                    <h3>Architecture</h3>
+                    <p>From Roman antiquity to cutting-edge modernism, French architecture represents a continuous
+                        dialogue between beauty and innovation.</p>
+                    <ul>
+                        <li>Gothic Cathedrals — Notre-Dame, Strasbourg, Chartres</li>
+                        <li>Châteaux of the Loire — Renaissance masterpieces</li>
+                        <li>Haussmann's Paris — The grand boulevards and facades</li>
+                        <li>Roman Provence — Pont du Gard, Arles amphitheatre</li>
+                        <li>Art Deco — Elegant 1920s buildings across French cities</li>
+                        <li>Modern Marvels — Centre Pompidou, MuCEM in Marseille</li>
+                        <li>Half-timbered houses — Alsatian charm in Strasbourg</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== FOOD FEATURE ======== -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div class="fade-in-left">
+                    <p class="section-label">Gastronomic Heritage</p>
+                    <h2>A Feast for the Senses</h2>
+                    <div class="gold-line" style="margin: 1.25rem 0;"></div>
+                    <p style="margin-bottom: 1.25rem;">
+                        French gastronomy is far more than food — it's a way of life. Every region brings its own
+                        distinctive flavors, born from centuries of tradition and the finest local ingredients. The
+                        French meal itself is a ritual: an aperitif to begin, carefully paired courses, fine wine, and
+                        always room for cheese before dessert.
+                    </p>
+                    <p style="margin-bottom: 1.25rem;">
+                        From the rustic cassoulet of Toulouse to the delicate seafood platters of Brittany, from the
+                        aromatic herbs of Provence to the hearty charcuterie of Alsace, each bite tells a story of
+                        place, people, and passion.
+                    </p>
+                    <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem;">🧀</div>
+                            <span style="font-size: 0.8rem; color: var(--color-muted);">400+ Cheeses</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem;">🍷</div>
+                            <span style="font-size: 0.8rem; color: var(--color-muted);">17 Wine Regions</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem;">⭐</div>
+                            <span style="font-size: 0.8rem; color: var(--color-muted);">632 Michelin Stars</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem;">🥖</div>
+                            <span style="font-size: 0.8rem; color: var(--color-muted);">30B Baguettes/Year</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in-right">
+                    <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);">
+                        <img src="images/food.png" alt="Beautiful French cuisine spread"
+                            style="width: 100%; height: 450px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== FRENCH VALUES ======== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <p class="section-label">The French Spirit</p>
+                <h2>Liberté, Égalité, Fraternité</h2>
+                <p>The values that define France and inspire the world</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-3 stagger">
+                <div class="culture-card fade-in" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🕊</div>
+                    <h3>Liberté</h3>
+                    <p>Freedom of expression lies at the heart of French identity — from revolutionary ideals to
+                        artistic liberty, France champions the freedom to think, create, and dream.</p>
+                </div>
+                <div class="culture-card fade-in" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⚖</div>
+                    <h3>Égalité</h3>
+                    <p>Equality before the law and in society remains a founding principle. The Declaration of the
+                        Rights of Man and of the Citizen (1789) continues to shape modern democracy.</p>
+                </div>
+                <div class="culture-card fade-in" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
+                    <h3>Fraternité</h3>
+                    <p>Brotherhood and solidarity bind French communities together. From neighborhood marchés to
+                        national celebrations, the spirit of togetherness runs deep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== CTA BANNER ======== -->
+    <section class="cta-banner">
+        <div style="position: relative; z-index: 1;">
+            <p class="section-label" style="color: var(--color-gold-light);">Learn More</p>
+            <h2>Discover the Story<br>Behind This Project</h2>
+            <p>Understand our mission to promote diverse tourism in France and inspire travelers to explore beyond the
+                capital.</p>
+            <a href="about.html" class="btn btn-primary" style="font-size: 1rem; padding: 1rem 2.5rem;">
+                About the Project →
+            </a>
+        </div>
+    </section>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>⚜ France Unveiled</h3>
+                <p>An educational project showcasing the diverse beauty of France beyond Paris. Explore hidden gems,
+                    rich culture, and unforgettable experiences.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cities</h4>
+                <ul>
+                    <li><a href="destinations.html#nice">Nice</a></li>
+                    <li><a href="destinations.html#lyon">Lyon</a></li>
+                    <li><a href="destinations.html#marseille">Marseille</a></li>
+                    <li><a href="destinations.html#bordeaux">Bordeaux</a></li>
+                    <li><a href="destinations.html#strasbourg">Strasbourg</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="creator.html">Meet the Team</a></li>
+                    <li><a href="mailto:contact@franceunveiled.com">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 France Unveiled. An Educational Project.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">𝕏</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Facebook">ⓕ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

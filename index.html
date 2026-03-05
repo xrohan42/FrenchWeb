@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exploring the Hidden Gems of France | Tourism Beyond Paris</title>
+  <meta name="description" content="Discover the breathtaking beauty of France beyond Paris. Explore Nice, Lyon, Marseille, Bordeaux, and Strasbourg — hidden gems waiting to be explored.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            beige: '#F5F0E8',
+            'soft-white': '#FAFAF7',
+            'light-blue': '#D6E8F0',
+            navy: '#1B2A4A',
+            gold: '#C9A96E',
+            'gold-light': '#E8D5A8',
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'Georgia', 'serif'],
+            body: ['Inter', 'system-ui', 'sans-serif'],
+            accent: ['Cormorant Garamond', 'Georgia', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">⚜</span> France Unveiled
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="creator.html">Creators</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero.png" alt="Beautiful panoramic view of the French Riviera coastline">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="section-label" style="color: var(--color-gold-light);">✦ Discover the Undiscovered</p>
+      <h1>Exploring the Hidden<br>Gems of France</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">Tourism Beyond Paris — Where every city tells an extraordinary story</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+        <a href="destinations.html" class="btn btn-primary">Explore Destinations →</a>
+        <a href="about.html" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== INTRODUCTION ======== -->
+  <section class="section bg-pattern" id="intro">
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+        <div class="fade-in-left">
+          <p class="section-label">About the Journey</p>
+          <h2>France is More Than Just Paris</h2>
+          <div class="gold-line" style="margin: 1.25rem 0;"></div>
+          <p style="margin-bottom: 1.25rem;">
+            While Paris rightfully captures the world's imagination with the Eiffel Tower and the Louvre, France's true charm lies in the diverse tapestry of its other magnificent cities. From the sun-kissed Mediterranean coast to the wine-draped valleys of Bordeaux, each region offers a unique story that awaits the curious traveler.
+          </p>
+          <p>
+            Our mission is to unveil these hidden gems — cities brimming with history, culture, gastronomy, and natural beauty — inspiring you to discover the France that lies beyond the capital.
+          </p>
+        </div>
+        <div class="fade-in-right" style="position: relative;">
+          <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);">
+            <img src="images/bordeaux.png" alt="Beautiful Bordeaux architecture" style="width: 100%; height: 400px; object-fit: cover;">
+          </div>
+          <div style="position: absolute; bottom: -20px; left: -20px; background: var(--color-navy); color: white; padding: 1.5rem 2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-lg);">
+            <span style="font-family: var(--font-display); font-size: 2rem; font-weight: 700; display: block;">5+</span>
+            <span style="font-size: 0.85rem; opacity: 0.8;">Stunning cities to explore</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FEATURED CITIES ======== -->
+  <section class="section section-alt" id="featured">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Featured Destinations</p>
+        <h2>Discover Extraordinary Cities</h2>
+        <p>Each city is a masterpiece of culture, cuisine, and natural beauty</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="grid-3 stagger" style="margin-bottom: 2rem;">
+        <!-- Nice -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/nice.png" alt="Nice - Promenade des Anglais along Mediterranean coast">
+            <span class="card-badge">🌊 Côte d'Azur</span>
+          </div>
+          <div class="card-body">
+            <h3>Nice</h3>
+            <p>Where the Mediterranean meets French elegance. Stroll along the Promenade des Anglais and lose yourself in the vibrant colors of Old Town.</p>
+            <a href="destinations.html#nice" class="card-link">Discover Nice →</a>
+          </div>
+        </div>
+
+        <!-- Lyon -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/lyon.png" alt="Lyon - Historic old town along Saône river">
+            <span class="card-badge">🍽 Gastronomic Capital</span>
+          </div>
+          <div class="card-body">
+            <h3>Lyon</h3>
+            <p>The culinary heart of France. With its UNESCO-listed old town and world-renowned bouchons, Lyon is a feast for all senses.</p>
+            <a href="destinations.html#lyon" class="card-link">Discover Lyon →</a>
+          </div>
+        </div>
+
+        <!-- Marseille -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/marseille.png" alt="Marseille - Old Port with colorful boats">
+            <span class="card-badge">⚓ Mediterranean Port</span>
+          </div>
+          <div class="card-body">
+            <h3>Marseille</h3>
+            <p>France's oldest city pulses with multicultural energy. From the stunning Calanques to the vibrant Vieux-Port, Marseille captivates.</p>
+            <a href="destinations.html#marseille" class="card-link">Discover Marseille →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2 stagger" style="max-width: 820px; margin: 0 auto;">
+        <!-- Bordeaux -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/bordeaux.png" alt="Bordeaux - Place de la Bourse with water mirror">
+            <span class="card-badge">🍷 Wine Capital</span>
+          </div>
+          <div class="card-body">
+            <h3>Bordeaux</h3>
+            <p>Renowned for its exceptional wines and stunning 18th-century architecture, Bordeaux is a city that defines refined living.</p>
+            <a href="destinations.html#bordeaux" class="card-link">Discover Bordeaux →</a>
+          </div>
+        </div>
+
+        <!-- Strasbourg -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/strasbourg.png" alt="Strasbourg - Half-timbered houses in Petite France">
+            <span class="card-badge">🏰 Franco-German Heritage</span>
+          </div>
+          <div class="card-body">
+            <h3>Strasbourg</h3>
+            <p>A fairytale city where French and German cultures blend. Its timber-framed houses and Gothic cathedral create an enchanting atmosphere.</p>
+            <a href="destinations.html#strasbourg" class="card-link">Discover Strasbourg →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== HIGHLIGHTS STRIP ======== -->
+  <section class="section" style="padding: 4rem 2rem;">
+    <div class="container">
+      <div class="grid-4 stagger" style="text-align: center;">
+        <div class="fade-in" style="padding: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🏛</div>
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Historical Landmarks</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted);">Centuries of history in every corner</p>
+        </div>
+        <div class="fade-in" style="padding: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🎭</div>
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Vibrant Festivals</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted);">Celebrations that ignite the spirit</p>
+        </div>
+        <div class="fade-in" style="padding: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🍷</div>
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">World-Class Cuisine</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted);">A gastronomic paradise awaits</p>
+        </div>
+        <div class="fade-in" style="padding: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🌿</div>
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Natural Beauty</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted);">Breathtaking landscapes everywhere</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CTA BANNER ======== -->
+  <section class="cta-banner">
+    <div style="position: relative; z-index: 1;">
+      <p class="section-label" style="color: var(--color-gold-light);">Start Your Journey</p>
+      <h2>Ready to Explore France<br>Beyond Paris?</h2>
+      <p>Discover stunning coastlines, medieval villages, world-class vineyards, and vibrant cities waiting to share their stories with you.</p>
+      <a href="destinations.html" class="btn btn-primary" style="font-size: 1rem; padding: 1rem 2.5rem;">
+        View All Destinations →
+      </a>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚜ France Unveiled</h3>
+        <p>An educational project showcasing the diverse beauty of France beyond Paris. Explore hidden gems, rich culture, and unforgettable experiences.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Cities</h4>
+        <ul>
+          <li><a href="destinations.html#nice">Nice</a></li>
+          <li><a href="destinations.html#lyon">Lyon</a></li>
+          <li><a href="destinations.html#marseille">Marseille</a></li>
+          <li><a href="destinations.html#bordeaux">Bordeaux</a></li>
+          <li><a href="destinations.html#strasbourg">Strasbourg</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="creator.html">Meet the Team</a></li>
+          <li><a href="mailto:contact@franceunveiled.com">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 France Unveiled. An Educational Project.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Twitter">𝕏</a>
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Facebook">ⓕ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
